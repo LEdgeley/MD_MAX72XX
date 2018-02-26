@@ -312,7 +312,7 @@ public:
     DECODE = 4,	    ///< Set the MAX72XX 7 segment decode mode. Requires ON/OFF value. Library default is OFF.
     UPDATE = 10,    ///< Enable or disable auto updates of the devices from the library. Requires ON/OFF value. Library default is ON.
     WRAPAROUND = 11 ///< Enable or disable wraparound when shifting (circular buffer). Requires ON/OFF value. Library default is OFF.
-  }
+  };
 
   /**
   * Control Value enumerated type.
